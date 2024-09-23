@@ -14,6 +14,12 @@ Text Domain: menta2
 Tags: 
 */
 
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 0 !important;
+}
+
 .show-tab
 {
     display: block;
@@ -22,3 +28,12 @@ Tags:
 {
     display: none;
 }
+.tab-web > ul, .tab-marketing > ul, .tab-sns > ul, .tab-consulting > ul
+{
+    display: flex;
+}
+.tab-web > ul > li, .tab-marketing > ul > li, .tab-sns > ul > li, .tab-consulting > ul > li
+{
+    width: 33.3%;
+}
+
