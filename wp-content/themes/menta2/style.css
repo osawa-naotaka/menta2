@@ -34,6 +34,5 @@ p {
 }
 .tab-web > ul > li, .tab-marketing > ul > li, .tab-sns > ul > li, .tab-consulting > ul > li
 {
-    width: 33.3%;
+    width: 25%;
 }
-
